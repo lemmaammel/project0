@@ -1,0 +1,88 @@
+body {
+  background-color: #DCFFD1;
+}
+
+h1.title {
+  background-color: #59B86E;
+  /*text-styling*/
+  color: #D7D839;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 80px;
+  font-weight: bold;
+  /*margins*/
+  padding: 5px;
+  margin: 0px;
+}
+
+a, #lecture_links {
+  /*styling for links*/
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #60B64D;
+  font-size: 45px;
+}
+
+.large_td {
+  width: 40%;
+}
+
+td {
+  padding: 17px;
+}
+
+#lecture_links {
+  margin: 20px;
+}
+
+.notes_header {
+  /*styling for header*/
+  background-color: #ADF05E;
+  padding: 5px;
+  margin: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 45px;
+}
+
+.table {
+  /*styling for navigation bar*/
+  background-color: #A7E39A;
+  height: 50px;
+  border: 5px solid #3B7548;
+  border-collapse: collapse;
+  font-size: 40px;
+  width: 100%;
+  margin: 0px;
+}
+
+#emma_info_button {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #60B64D;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.data-content {
+  font-size: 30px;
+}
+
+.pheonix {
+  border: 5px solid black;
+  margin: 10px;
+}
+
+.info {
+  font-family: Helvetica;
+  color: #3B7548;
+  margin: 10px;
+  padding: 20px;
+  border: 5px solid #FFFFFF;
+  font-weight: bold;
+  font-size: 33px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- code for Bootstap4 -->
+      <link rel="stylesheet" a href="css/bootstrap.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- webpage header -->
+      <title>About</title>
+      <link rel="shortcut icon" type="image/x-icon" href="pheonixicon.gif">
+      <!-- link to styling -->
+      <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+    </head>
+
+    <body>
+
+      <!-- code to run popout -->
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();
+        });
+      </script>
+
+      <!-- table for links at the top -->
+      <table class="table">
+          <tr>
+             <td class="large_td">Willard Math Circle</td>
+             <td><a href="home.html">Home</a></td>
+             <td><a href="about.html">About</a></td>
+             <td><a href="resources.html">Resources</a></td>
+             <td><a href="contact.html">Contact Us</a></td>
+         </tr>
+      </table>
+
+      <style>
+      @media screen and (max-width:1305px)
+      {
+        td.large_td
+        {
+          display:none;
+          width:0px;
+        }
+      }
+      </style>
+
+      <!-- title -->
+      <h1 class="title">About</h1>
+
+      <!-- BOOTSTRAP COLLUMNS (CONTENT) -->
+
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col bg">
+
+            <!-- popout button -->
+            <button id="emma_info_button" type="button" class="btn btn-lg btn-secondary" data-toggle="popover" data-placement="bottom" data-content="Emma is a Junior at Berkeley High who loves pure mathematics! She's so appreciative of this opportunity to work with others who share her passion!">
+              Click to Learn About Emma
+            </button>
+
+            <!-- image of pheonix -->
+            <img class="pheonix" src="https://mrkimsclass.webs.com/8th/Willardweblogoicon.gif" alt="Trulli" width="100%">
+
+          </div>
+
+          <div class="col bg">
+            <h1 class="info">WHO: 7th and 8th graders who love math and are looking for math enrichment at their school!</h1>
+          </div>
+
+          <div class="col bg">
+            <h1 class="info">WHAT: Math Circle is a weekly meeting of students who enjoy mathematics and want the added challenge of learning exciting topics outside of the standard curriculum! Math challenges will be given on a weekly basis that students can complete on their own time. The group will be organized and run by a Willard graduate who is now attending Berkeley High School.</h1>
+          </div>
+
+          <div class="col bg">
+            <h1 class="info">WHEN / WHERE: YSP office, every Monday during lunch beginning October 7th!</h1>
+          </div>
+
+        </div>
+      </div>
+
+    </body>
+</html>

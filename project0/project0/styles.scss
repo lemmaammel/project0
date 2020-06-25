@@ -1,0 +1,105 @@
+/* variables */
+$general_font: Helvetica;
+$general_color1: #60B64D;
+$general_color2: #3B7548;
+
+/* inheritance class */
+%word_styling
+{
+  /* scss nesting */
+  font:
+  {
+    family: $general_font;
+    weight: bold;
+  }
+  padding: 5px;
+}
+
+body
+{
+  background-color: #DCFFD1;
+}
+
+h1.title
+{
+  @extend %word_styling;
+  background-color: #59B86E;
+  /*text-styling*/
+  color: #D7D839;
+  text-align: center;
+  font-size: 80px;
+  /*margins*/
+  margin: 0px;
+}
+
+a, #lecture_links
+{
+  @extend %word_styling;
+  /*styling for links*/
+  color: $general_color1;
+  font-size: 45px;
+}
+
+.large_td
+{
+  width:40%;
+}
+
+td
+{
+  padding:17px;
+}
+
+#lecture_links {margin: 20px;}
+
+.notes_header
+{
+  @extend %word_styling;
+  /*styling for header*/
+  background-color: #ADF05E;
+  margin: 20px;
+  color: #FFFFFF;
+  font-size: 45px;
+}
+
+.table
+{
+  /*styling for navigation bar*/
+  background-color: #A7E39A;
+  height: 50px;
+  border: 5px solid $general_color2;
+  border-collapse: collapse;
+  font-size: 40px;
+  width:100%;
+  margin:0px;
+}
+
+#emma_info_button
+{
+  @extend %word_styling;
+  font-size:30px;
+  margin:10px;
+  background-color:$general_color1;
+  color:#FFFFFF;
+  width:100%;
+}
+
+.data-content
+{
+  font-size:30px;
+}
+
+.pheonix
+{
+  border: 5px solid black;
+  margin:10px;
+}
+
+.info
+{
+  @extend %word_styling;
+  color: $general_color2;
+  margin:10px;
+  border: 5px solid #FFFFFF;
+  font-size:33px;
+}
